@@ -1,0 +1,56 @@
+.wea-wrap {
+    padding-top: 20px;
+}
+
+.wea-form {
+    margin-top: 16px;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.wea-form__field {
+    margin-bottom: 15px;
+}
+
+.wea-form__field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.weo-submit-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.wea-loader {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wea-loading .wea-loader {
+    display: inline-block;
+}
+
+.wea-loading:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    content: "";
+    background-color: rgb(86, 86, 112, 40%);
+}
+
+.wea-error {
+    margin-top: 5px;
+    color: #d63638;
+}
